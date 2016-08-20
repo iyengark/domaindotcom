@@ -14,9 +14,9 @@ class ChickenloverDB:
  def __init__(self):
     try:
       self.conn = MySQLdb.connect (
-      host = "thekrishnans.domaincommysql.com",
-      user = "wluzdotcom",
-      passwd = "netcom",
+      host = "t*k*s.domaincommysql.com",
+      user = "wluz******",
+      passwd = "******",
       db = "params")
       self.cursor = self.conn.cursor()
 
